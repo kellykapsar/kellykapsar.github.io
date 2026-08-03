@@ -1,6 +1,6 @@
 ---
 title: "Home"
-pagetitle: "Kelly Kapsar | Conservation Data Scientist"
+pagetitle: "Kelly Kapsar | Environmental Data Scientist"
 page-layout: full
 ---
 
@@ -10,14 +10,11 @@ page-layout: full
 # Kelly Kapsar
 
 ::: {.tagline}
-Conservation Data Scientist
+Environmental Data Scientist | Spatial Ecologist | Systems Thinker
 :::
 
 ::: {.lede}
-I turn large, messy environmental data into evidence that conservation
-practitioners can act on — mapping where human activity and wildlife collide,
-building open data products that outlast a single project, and translating
-results for the agencies, communities, and organizations who use them.
+I use interdisciplinary approaches to analyze large, spatiotemporal data sets generated from remote sensing, systematic sampling, and movement tracking to answer complex questions about global change. Through open science, reproducible research, and science communication, I share my data and findings with a broad audience.  
 :::
 
 [View my research](research.qmd){.btn-hero .solid}
@@ -35,35 +32,34 @@ results for the agencies, communities, and organizations who use them.
 What I do
 :::
 
-## Data-driven answers to applied conservation questions
+## Data-driven answers to conservation questions
 
 ::: {.project-grid}
 
 ::: {.project-card style="border:none; background:transparent;"}
 ::: {.pc-body style="padding:0;"}
-### Spatial analysis at scale
-Fifteen years of satellite vessel tracking. Continental-scale climate and
-terrain layers. Bird range maps for every non-migratory species on Earth. I work
-comfortably in the size class where analysis becomes an engineering problem, and
-I build the pipelines to match.
+### Spatiotemporal data analysis across scales
+Ten years of satellite vessel tracking, continental-scale climate and terrain
+layers, and bird interaction networks across the Western Hemisphere are a few of the data sets I have worked with in recent years.
 :::
 :::
 
 ::: {.project-card style="border:none; background:transparent;"}
 ::: {.pc-body style="padding:0;"}
 ### Open, reusable data products
-Four of my datasets are published, versioned, and citable through the Arctic
-Data Center and the Environmental Data Initiative. Deliverables that other
-people can pick up and run — not one-off analyses that die with the report.
+I ensure that datasets are published, versioned, and citable through reputable
+repositories (e.g., Arctic Data Center and the Environmental Data Initiative),
+with documentation and code so others can pick them up and run them.
 :::
 :::
 
 ::: {.project-card style="border:none; background:transparent;"}
 ::: {.pc-body style="padding:0;"}
-### Findings that reach decision-makers
-My vessel traffic and seabird risk work has been presented to USFWS oil spill
-teams, BOEM, the Alaska Marine Policy Forum, and Arctic coastal communities. I
-write for the audience that has to act on the result.
+### Science communication to diverse audiences
+In addition to scientific conferences, I have presented my research to coastal
+Arctic communities, US Fish and Wildlife Service, US Coast Guard, and
+environmental NGOs, among others. It is my goal to reach the people most
+interested in and affected by the results of my research.
 :::
 :::
 
@@ -92,7 +88,7 @@ Current work
 ## What I'm working on now
 
 ::: {.lead-text}
-Four active projects spanning biodiversity data infrastructure, avian
+My current research projects focus on biodiversity data infrastructure, avian
 macroecology, Arctic marine spatial planning, and climate intervention policy.
 :::
 
@@ -105,8 +101,9 @@ macroecology, Arctic marine spatial planning, and climate intervention policy.
 ::: {.pc-meta}
 Biodiversity data infrastructure
 :::
-### Multi-scale environmental geodiversity for NEON
-A continental-scale set of terrain, soil, and climate heterogeneity layers
+### Multi-scale environmental geodiversity for the National Ecological Observatory
+Network (NEON)
+A continental-scale set of terrain and climate heterogeneity data layers
 calculated across multiple spatial scales for every NEON site — plus an
 adaptable workflow so the same layers can be generated anywhere.
 
@@ -143,9 +140,9 @@ Western Hemisphere.
 Marine spatial planning
 :::
 ### Vessel dynamics in the Bering Strait
-Mapping how ship traffic is reorganizing in one of the world's fastest-changing
-maritime bottlenecks, and what that reorganization means for the wildlife and
-coastal communities that depend on it.
+Mapping how ship traffic is reorganizing in a fast-changing maritime
+bottleneck, and what that reorganization means for the wildlife and coastal
+communities who live there and depend on its resources.
 
 ::: {.pc-links}
 [Read more](research.qmd#bering)
@@ -161,10 +158,10 @@ coastal communities that depend on it.
 Climate intervention
 :::
 ### Ecological risk of solar radiation modification
-Stratospheric aerosol injection has been proposed to buy time on warming, but
-its ecological consequences are largely unknown. This project uses experiments,
-ecological analogs, and extreme-event forecasting to find out what it would do
-to ecosystems.
+Stratospheric aerosol injection has been proposed to buy time to address
+climate change, but its ecological consequences are largely unknown. This
+project uses experiments, ecological analogs, and extreme-event forecasting to
+predict what it could do to ecosystems.
 
 ::: {.pc-links}
 [Read more](research.qmd#srm)
@@ -197,21 +194,19 @@ About
 
 ## A short version
 
-I'm a conservation data scientist. I hold a Ph.D. in
-Fisheries & Wildlife from Michigan State University, where I was a University
-Distinguished Fellow, and a B.A. in Biology from Carleton College. I currently
-work as a data scientist and postdoctoral researcher with the Institute for
-Biodiversity, Ecology, Evolution, and Macrosystems and the Spatial & Community
-Ecology Lab at MSU.
+I hold a Ph.D. in Fisheries & Wildlife from Michigan State University and a
+B.A. in Biology from Carleton College. I currently work as a data scientist
+and postdoctoral researcher with the [Institute for Biodiversity, Ecology,
+Evolution, and Macrosystems](https://www.ibeem.msu.edu) and the [Spatial &
+Community Ecology Lab]( https://www.communityecologylab.com/) at MSU.
 
-My research has produced 17 peer-reviewed papers and four public datasets, and
-I was a principal contributor to a $1.5M NSF Arctic System Science proposal. Alongside
-that, I've spent a decade with the Saint Louis Zoo's Arctic Socio-Environmental
-WildCare Program doing community-engaged conservation work in Alaska — which is
-where I learned that a result nobody can use isn't a result.
-
-I'm currently looking for research roles with environmental consulting firms and
-conservation NGOs where that combination is useful.
+My interdisciplinary work focuses on developing reproducible workflows and
+open source tools and data sets to answer both applied conservation questions
+and test cross-scale ecological theories. While I have been based in academia,
+I have worked in partnership with researchers in government and NGOs for more
+than 10 years. Community engagement and science communication are also
+important parts of my career, and I have translated science for diverse
+audiences from preschoolers to senior citizens.
 
 [Read the full CV](cv.qmd){.btn-hero style="border-color:#1f4d47; color:#1f4d47 !important;"}
 :::

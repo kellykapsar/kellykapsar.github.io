@@ -18,7 +18,7 @@ project:
 
 website:
   title: "Kelly Kapsar"
-  description: "Conservation data scientist working at the intersection of spatial analysis, wildlife conservation, and human activity."
+  description: "Environmental data scientist and spatial ecologist working at the intersection of spatial analysis, wildlife conservation, and human activity."
   site-url: "https://kellykapsar.github.io"
   favicon: images/favicon.png
   open-graph: true

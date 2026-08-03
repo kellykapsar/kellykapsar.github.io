@@ -16,9 +16,9 @@ page-layout: full
 # Research
 
 ::: {.lede}
-I work on applied conservation problems that are limited by data — where the
-question is answerable, but only if someone assembles, cleans, and analyzes
-information at a scale that hasn't been attempted yet.
+I work with applied conservation questions and macroecological systems that
+are limited by data processing — where the question is answerable, but only
+once someone assembles and analyses the information needed to answer it.
 :::
 :::
 :::
@@ -40,10 +40,9 @@ Biodiversity data infrastructure · 2023–present
 :::
 ### Multi-scale environmental geodiversity for NEON
 
-Environmental heterogeneity — the roughness of terrain, the variety of soils,
-the swing of the climate — shapes where species can live. But the scale at which
-you measure that heterogeneity changes the answer, and most analyses pick one
-scale and hope.
+Environmental heterogeneity — the roughness of terrain and the variability of
+the climate — shapes where species can live. But the scale at which you
+measure that heterogeneity changes the answer.
 
 I built a set of geodiversity and climate layers for every National Ecological
 Observatory Network site in the United States, calculated across multiple
@@ -51,12 +50,8 @@ spatial scales, together with an adaptable workflow that lets other researchers
 generate the same layers for any area of interest. The data are published and
 versioned through the Environmental Data Initiative; the workflow is on GitHub.
 
-**Why it matters for practitioners:** the same pipeline that serves NEON
-researchers can characterize environmental heterogeneity for a mitigation site,
-a proposed reserve, or a regional planning footprint.
 
-**Role:** Lead author and analyst. **Collaborators:** Zarnetske Lab (MSU),
-Baiser (UF), Record (Penn State), Strecker (PSU), Bills, Kounta.
+**Role:** Lead author
 
 [Paper (*Scientific Data*, 2026)](https://doi.org/10.1038/s41597-026-07613-5) ·
 [Code](https://github.com/kellykapsar)
@@ -96,23 +91,19 @@ Marine spatial planning · 2016–present
 :::
 ### Navigating change in the Bering Strait
 
-The Bering Strait is a narrow, shallow gateway between the Pacific and the
-Arctic. Sea ice loss is lengthening the shipping season through it, and traffic
-is not just increasing — it is reorganizing, in ways that matter for subsistence
-hunting, marine mammals, and spill risk.
+The Bering Strait is a narrow and shallow gateway between the Pacific and the
+Arctic. Sea ice loss is lengthening the shipping season and traffic is not
+just increasing, it is reorganizing in ways that matter for local communities
+and wildlife that call this region home.
 
-Using more than a decade of satellite AIS data, I track how vessel routes,
-seasonality, and traffic composition are shifting, and evaluate whether
-management measures are changing behavior on the water. Related work with
-colleagues found measurable effects of the International Maritime Organization's
-"Areas to be Avoided" designations on vessel movement in the Strait.
+By developing a decade-long timeseries of satellite AIS data, I track how
+vessel routes, seasonality, and traffic composition are shifting, and evaluate
+whether management measures are changing mariners’ behavior.
 
-**Why it matters for practitioners:** this is spatial planning evidence — where
-traffic is going, when, and whether a designation actually moved ships.
 
-**Role:** Lead analyst; co-author on associated policy analyses.
-**Presented to:** Alaska Marine Science Symposium (2026), IALE-NA (2025), Alaska
-Marine Policy Forum, USFWS Oil Spill Team, Northern Latitudes Partnerships.
+**Role:** Lead data analyst; postdoc **Presented to:** Alaska Marine Science
+Symposium (2026), IALE-NA (2025), Alaska Marine Policy Forum, USFWS Oil Spill
+Team, Northern Latitudes Partnerships.
 
 [ATBA policy analysis (*Marine Policy*, 2025)](https://doi.org/10.1016/j.marpol.2025.106849) ·
 [Ice-covered waters analysis (*Climatic Change*, 2023)](https://doi.org/10.1007/s10584-023-03568-3) ·
@@ -131,7 +122,7 @@ Climate intervention · 2025–present
 :::
 ### Solar radiation modification
 
-Stratospheric aerosol injection (SAI) is a controversial form of solar geo-engineering that has been proposed as an intermediate step to lower temperatures while global communities work to reduce carbon emissions. However, very little is known about the possibly substantial ecological consequences of SAI. Aerosol injection could affect patterns of light (e.g., diffuse vs. direct) and precipitation, among other variables that are important for ecosystem functioning. This project seeks to better undersatnd the potential impacts and cascading consequences of SAI on ecosystems through experiments, identification of ecological analog communities, and forecasts of extreme events under SAI. 
+Stratospheric aerosol injection (SAI) is a controversial form of solar geo-engineering that has been proposed as an intermediate step to lower temperatures while global communities work to reduce carbon emissions. However, very little is known about the possibly substantial ecological consequences of SAI. Aerosol injection could affect patterns of light (e.g., diffuse vs. direct) and precipitation, among other variables that are important for ecosystem functioning. This project seeks to better understand the potential impacts and cascading consequences of SAI on ecosystems through experiments, identification of ecological analog communities, and forecasts of extreme events under SAI. 
 
 :::
 ::: {.feature-img}
@@ -164,10 +155,9 @@ Risk assessment · Alaska
 :::
 ### Seabird–vessel risk across Alaska's oceans
 A multi-scale, seasonal analysis combining at-sea seabird survey data with
-satellite vessel tracking to identify where and when ships and seabirds overlap
-across Alaska's marine regions. Produced as a peer-reviewed paper and as a
-technical appendix for the Bureau of Ocean Energy Management — a direct input to
-offshore planning and spill-response prioritization.
+satellite vessel tracking to identify where and when ships and seabirds
+overlap across Alaska's marine regions. Produced as a peer-reviewed paper and
+as a technical appendix for the Bureau of Ocean Energy Management.
 
 *With Benjamin Sullender (Audubon Alaska) and Kathy Kuletz (USFWS).*
 
@@ -187,10 +177,8 @@ Open data product
 :::
 ### North Pacific & Arctic marine traffic dataset
 A spatially explicit, publicly available dataset of monthly shipping intensity
-across the North Pacific and Arctic, 2015–2020, built from raw satellite AIS and
-released with full documentation at multiple resolutions. Downloaded and reused
-by agencies, NGOs, and researchers who previously had no consistent regional
-traffic layer to work from.
+across the North Pacific and Arctic, 2015–2020, built from raw satellite AIS
+and released with full documentation at multiple resolutions.
 
 ::: {.pc-links}
 [Paper (*Data in Brief*, 2022)](https://doi.org/10.1016/j.dib.2022.108531) ·
@@ -206,12 +194,10 @@ traffic layer to work from.
 ::: {.pc-meta}
 Community-engaged conservation · 2015–2025
 :::
-### Saint Louis Zoo Arctic WildCare Program
-A decade as a research associate with the Zoo's Arctic Socio-Environmental
-Initiative, working on community engagement in conservation with Alaskan
-partners. This is where my research questions come from: sustained relationships
-with the people who live with the outcomes, and a habit of asking what a
-community actually needs to know before designing the study.
+### Saint Louis Zoo Arctic Socio-Environmental Initiative WildCare Program
+A decade as a research associate with the Zoo's [Arctic Socio-Environmental
+Initiative]( https://stlzoo.org/alaska), working on community engaged-exhibit
+interpretation in collaboration with Alaska Native community partners.
 
 
 ::: {.pc-links}

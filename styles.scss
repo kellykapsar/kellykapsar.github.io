@@ -23,7 +23,7 @@ $font-size-root:  17px;
 $headings-font-weight: 600;
 $line-height-base: 1.65;
 
-$navbar-bg: transparent;
+$navbar-bg: $deep;
 $navbar-fg: #ffffff;
 
 /*-- scss:rules --*/
@@ -31,35 +31,28 @@ $navbar-fg: #ffffff;
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap');
 
 // ==========================================================================
-//  NAVBAR — transparent over the hero, solid once you scroll
+//  NAVBAR — always solid, so links stay legible over any content
 // ==========================================================================
+// Quarto's navbar is fixed-top with "headroom" (hides on scroll down, returns
+// on scroll up). With a transparent background the white links reappeared over
+// white page content and became unreadable, so it stays opaque at all times.
 .navbar {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  z-index: 1000;
-  background: transparent !important;
+  background: $deep !important;
   border: none;
-  padding: 0.9rem 0;
-  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+  padding: 0.6rem 0;
+  box-shadow: 0 1px 12px rgba(10, 20, 18, 0.18);
 }
 
 .navbar .navbar-title,
 .navbar .nav-link {
   color: #fff !important;
-  text-shadow: 0 1px 8px rgba(0,0,0,0.45);
   letter-spacing: 0.01em;
 }
 .navbar .navbar-title { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; }
-.navbar .nav-link { font-size: 0.9rem; font-weight: 500; }
-.navbar .nav-link:hover { color: #fff !important; opacity: 0.75; }
-
-// Pages without a hero image get a solid dark bar so the links stay readable.
-body:not(:has(.hero)) .navbar {
-  position: relative;
-  background: $deep !important;
-}
-body:not(:has(.hero)) .navbar .navbar-title,
-body:not(:has(.hero)) .navbar .nav-link { text-shadow: none; }
+.navbar .nav-link { font-size: 0.9rem; font-weight: 500; opacity: 0.9; }
+.navbar .nav-link:hover,
+.navbar .nav-link.active { opacity: 1; }
+.navbar .nav-link.active { box-shadow: inset 0 -2px 0 $accent; }
 
 // ==========================================================================
 //  HERO — full-bleed background photo

@@ -19,3 +19,8 @@ images/*.JPEG
 images/hero-research.gif
 images/outreach-storymap.gif
 images/P2170911.JPG
+
+# Editing doc round-trip artefacts
+Website-Copy.docx
+.copy-map.json
+Website-Copy-edited.docx

@@ -9,8 +9,8 @@ page-layout: full
 # Curriculum Vitae
 
 ::: {.lede}
-Ph.D. in Fisheries & Wildlife · 17 peer-reviewed publications · four public
-datasets · a decade of community-engaged conservation practice.
+Ph.D. in Fisheries & Wildlife, Michigan State University. Full record below,
+or download the PDF.
 :::
 [Download PDF](files/KapsarCV.pdf){.btn-hero .solid}
 :::
@@ -131,38 +131,6 @@ Community-engaged conservation research and outreach with Alaskan partners
 :::
 :::
 
-::: {.talk-item}
-::: {}
-::: {.talk-year}
-2023
-:::
-:::
-::: {}
-::: {.talk-title}
-**Data Scientist** — ACTNOW Amazonas Action Alliance, XPRIZE Rainforest
-:::
-::: {.talk-venue}
-Biodiversity data analysis for an international competition team
-:::
-:::
-:::
-
-::: {.talk-item}
-::: {}
-::: {.talk-year}
-2019
-:::
-:::
-::: {}
-::: {.talk-title}
-**Research Assistant** — USCGC *Healy* Research Cruise 1901
-:::
-::: {.talk-venue}
-Bering and Chukchi Seas, Alaska
-:::
-:::
-:::
-
 :::
 :::
 
@@ -176,8 +144,7 @@ Selected funding
 ## Grants, fellowships & awards
 
 ::: {.lead-text}
-Principal contributor to a $1.5M NSF Arctic System Science proposal; recipient of
-competitive fellowships and awards totalling over $200,000.
+Selected grants, fellowships, and awards.
 :::
 
 ::: {.pub-list}

@@ -9,9 +9,8 @@ page-layout: full
 # Talks & Outreach
 
 ::: {.lede}
-Research only matters if it reaches the people making decisions. I present to
-scientific societies, federal agencies, policy forums, and public audiences —
-and I've spent a decade doing community-engaged conservation work in Alaska.
+Talks to scientific societies, federal agencies, and policy forums, along with
+public writing, outreach, and teaching.
 :::
 :::
 :::
@@ -23,7 +22,7 @@ and I've spent a decade doing community-engaged conservation work in Alaska.
 Audiences
 :::
 
-## Who I've presented to
+## Where I've presented
 
 [USFWS Oil Spill Team]{.tag} [Bureau of Ocean Energy Management]{.tag}
 [Alaska Marine Policy Forum]{.tag} [Northern Latitudes Partnerships]{.tag}
