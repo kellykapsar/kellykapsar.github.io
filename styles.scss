@@ -1,0 +1,332 @@
+/*-- scss:defaults --*/
+
+// ---- Palette -------------------------------------------------------------
+// Cool "Arctic" base with a warm rust accent. Change these five values and
+// the whole site re-themes.
+$ink:        #16211f;   // near-black text
+$slate:      #55635f;   // secondary text
+$deep:       #1f4d47;   // deep teal-green (primary)
+$accent:     #c0662f;   // warm rust (links, highlights)
+$sand:       #f5f2ec;   // warm off-white background
+$line:       #e0dbd1;   // hairline rules
+
+$body-bg:    #ffffff;
+$body-color: $ink;
+$primary:    $deep;
+$link-color: $accent;
+$link-hover-color: darken($accent, 12%);
+
+// ---- Type ----------------------------------------------------------------
+$font-family-sans-serif: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$headings-font-family:   "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-size-root:  17px;
+$headings-font-weight: 600;
+$line-height-base: 1.65;
+
+$navbar-bg: transparent;
+$navbar-fg: #ffffff;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap');
+
+// ==========================================================================
+//  NAVBAR — transparent over the hero, solid once you scroll
+// ==========================================================================
+.navbar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  z-index: 1000;
+  background: transparent !important;
+  border: none;
+  padding: 0.9rem 0;
+  transition: background-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.navbar .navbar-title,
+.navbar .nav-link {
+  color: #fff !important;
+  text-shadow: 0 1px 8px rgba(0,0,0,0.45);
+  letter-spacing: 0.01em;
+}
+.navbar .navbar-title { font-family: $headings-font-family; font-size: 1.15rem; font-weight: 600; }
+.navbar .nav-link { font-size: 0.9rem; font-weight: 500; }
+.navbar .nav-link:hover { color: #fff !important; opacity: 0.75; }
+
+// Pages without a hero image get a solid dark bar so the links stay readable.
+body:not(:has(.hero)) .navbar {
+  position: relative;
+  background: $deep !important;
+}
+body:not(:has(.hero)) .navbar .navbar-title,
+body:not(:has(.hero)) .navbar .nav-link { text-shadow: none; }
+
+// ==========================================================================
+//  HERO — full-bleed background photo
+// ==========================================================================
+.hero {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  min-height: 78vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center 55%;
+  color: #fff;
+}
+.hero::after {
+  content: "";
+  position: absolute; inset: 0;
+  // Two stacked gradients: a vertical one for overall legibility, and a
+  // left-side one so headline/body text always has a dark backing no matter
+  // what photo you drop in.
+  background:
+    linear-gradient(90deg, rgba(10,20,18,0.55) 0%, rgba(10,20,18,0.28) 45%, rgba(10,20,18,0) 70%),
+    linear-gradient(180deg, rgba(10,20,18,0.55) 0%, rgba(10,20,18,0.34) 45%, rgba(10,20,18,0.72) 100%);
+}
+.hero-inner {
+  position: relative; z-index: 2;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 7rem 1.5rem 4rem;
+  width: 100%;
+}
+.hero h1 {
+  font-size: clamp(2.4rem, 6vw, 4.1rem);
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0 0 0.6rem;
+  color: #fff;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.35);
+}
+.hero .tagline {
+  font-size: clamp(1.05rem, 2.2vw, 1.4rem);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #f0ebe2;
+  margin-bottom: 1.4rem;
+}
+.hero .lede {
+  font-size: 1.08rem;
+  max-width: 46rem;
+  color: #f3f0ea;
+  margin-bottom: 2rem;
+}
+.hero-photo-credit {
+  position: absolute; bottom: 0.6rem; right: 1rem; z-index: 2;
+  font-size: 0.72rem; color: rgba(255,255,255,0.65);
+}
+
+// Video hero (used on Research). muted + playsinline are REQUIRED or iOS
+// Safari refuses to autoplay; the poster shows while loading and wherever
+// autoplay is blocked.
+.hero-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-video { display: none; }
+}
+
+// Shorter hero for interior pages
+.hero.hero-sm { min-height: 44vh; }
+.hero.hero-sm .hero-inner { padding: 6rem 1.5rem 2.5rem; }
+
+// ==========================================================================
+//  BUTTONS
+// ==========================================================================
+.btn-hero {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  margin: 0 0.6rem 0.6rem 0;
+  border-radius: 2px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-decoration: none !important;
+  border: 1.5px solid #fff;
+  color: #fff !important;
+  transition: all 0.2s ease;
+}
+.btn-hero:hover { background: #fff; color: $ink !important; }
+.btn-hero.solid { background: $accent; border-color: $accent; }
+.btn-hero.solid:hover { background: darken($accent, 8%); border-color: darken($accent, 8%); color: #fff !important; }
+
+// ==========================================================================
+//  FULL-BLEED BANDS  (alternating color / photo sections)
+// ==========================================================================
+.band {
+  width: 100vw;
+  left: 50%;
+  margin-left: -50vw;
+  position: relative;
+  padding: 4.5rem 0;
+}
+.band-sand { background: $sand; }
+.band-deep { background: $deep; color: #eef3f1; }
+.band-deep h2, .band-deep h3 { color: #fff; }
+.band-inner { max-width: 1000px; margin: 0 auto; padding: 0 1.5rem; }
+
+.band-photo {
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 6rem 0;
+}
+.band-photo::before {
+  content: ""; position: absolute; inset: 0;
+  background: rgba(12,24,22,0.60);
+}
+.band-photo .band-inner { position: relative; z-index: 2; }
+.band-photo h2, .band-photo p { color: #fff; }
+
+// ==========================================================================
+//  SECTION HEADINGS
+// ==========================================================================
+.section-label {
+  font-family: $font-family-sans-serif;
+  font-size: 0.76rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: $accent;
+  margin-bottom: 0.5rem;
+}
+h2 { font-size: 2rem; margin-bottom: 1.2rem; }
+h3 { font-size: 1.3rem; }
+.lead-text { font-size: 1.12rem; color: $slate; max-width: 44rem; }
+
+// ==========================================================================
+//  PROJECT CARDS
+// ==========================================================================
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.75rem;
+  margin-top: 2rem;
+}
+.project-card {
+  background: #fff;
+  border: 1px solid $line;
+  border-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-card:hover { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(20,32,30,0.12); }
+.project-card img { width: 100%; height: 190px; object-fit: cover; display: block; }
+.project-card .pc-body { padding: 1.3rem 1.4rem 1.5rem; flex: 1; display: flex; flex-direction: column; }
+.project-card h3 { margin: 0 0 0.15rem; font-size: 1.16rem; line-height: 1.3; }
+.project-card .pc-meta {
+  font-size: 0.76rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: $accent; font-weight: 600; margin-bottom: 0.7rem;
+}
+.project-card p { font-size: 0.95rem; color: $slate; margin-bottom: 0.9rem; }
+.project-card .pc-links { margin-top: auto; font-size: 0.87rem; }
+.project-card .pc-links a { margin-right: 0.9rem; font-weight: 500; }
+
+// Wide alternating feature rows (for the four current projects)
+.feature {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  margin: 0 0 4rem;
+}
+.feature img { width: 100%; border-radius: 3px; box-shadow: 0 8px 26px rgba(20,32,30,0.14); }
+.feature.reverse .feature-text { order: 2; }
+.feature.reverse .feature-img  { order: 1; }
+@media (max-width: 800px) {
+  .feature { grid-template-columns: 1fr; gap: 1.5rem; }
+  .feature.reverse .feature-text, .feature.reverse .feature-img { order: unset; }
+}
+
+// ==========================================================================
+//  TAGS / SKILL PILLS
+// ==========================================================================
+.tag {
+  display: inline-block;
+  padding: 0.22rem 0.7rem;
+  margin: 0 0.35rem 0.45rem 0;
+  border: 1px solid $line;
+  border-radius: 100px;
+  font-size: 0.78rem;
+  color: $slate;
+  background: #fff;
+}
+.band-deep .tag { border-color: rgba(255,255,255,0.35); color: #eef3f1; background: transparent; }
+
+// ==========================================================================
+//  PUBLICATION / TALK LISTS
+// ==========================================================================
+.pub-list .csl-entry {
+  padding: 0.9rem 0 0.9rem 1rem;
+  border-left: 3px solid $line;
+  margin-bottom: 0.4rem;
+  font-size: 0.97rem;
+}
+.pub-list .csl-entry:hover { border-left-color: $accent; background: $sand; }
+
+.talk-item {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid $line;
+  display: grid;
+  grid-template-columns: 5.5rem 1fr;
+  gap: 1.2rem;
+}
+.talk-item .talk-year { font-weight: 600; color: $deep; font-size: 0.95rem; }
+.talk-item .talk-title { font-weight: 500; }
+.talk-item .talk-venue { color: $slate; font-size: 0.9rem; }
+.talk-item .talk-kind {
+  font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: $accent; font-weight: 600;
+}
+@media (max-width: 600px) { .talk-item { grid-template-columns: 1fr; gap: 0.2rem; } }
+
+// ==========================================================================
+//  MISC
+// ==========================================================================
+.headshot {
+  width: 100%; max-width: 300px; border-radius: 3px;
+  box-shadow: 0 8px 26px rgba(20,32,30,0.16);
+}
+.two-col { display: grid; grid-template-columns: 300px 1fr; gap: 3rem; align-items: start; }
+@media (max-width: 800px) { .two-col { grid-template-columns: 1fr; gap: 1.5rem; } }
+
+main.content { padding-top: 0 !important; }
+body:not(:has(.hero)) main.content { padding-top: 2.5rem !important; }
+#title-block-header { display: none; }
+.nav-footer { border-top: 1px solid $line; font-size: 0.88rem; }
+
+// ==========================================================================
+//  PHOTO CREDITS
+// ==========================================================================
+.photo-credit {
+  display: block;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: lighten($slate, 12%);
+  margin: 0.35rem 0 0;
+}
+.photo-credit a { color: inherit; text-decoration: underline; }
+
+// Inside a project card, tuck the credit against the image
+.project-card .photo-credit { padding: 0.4rem 1.4rem 0; margin: 0; }
+
+figure figcaption {
+  font-size: 0.78rem;
+  color: $slate;
+  margin-top: 0.5rem;
+  line-height: 1.45;
+}
+
+// Dark backgrounds need a lighter credit
+.band-deep .photo-credit,
+.band-photo .photo-credit { color: rgba(255,255,255,0.7); }
