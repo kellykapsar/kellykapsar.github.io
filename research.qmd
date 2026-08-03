@@ -70,20 +70,18 @@ Baiser (UF), Record (Penn State), Strecker (PSU), Bills, Kounta.
 ::: {#metanetwork .feature .reverse}
 ::: {.feature-text}
 ::: {.pc-meta}
-Macroecology · [YEARS]
+Macroecology · 2023-present
 :::
 ### Avian MetaNetwork
 
-::: {style="background:#fdf6ee; border-left:3px solid #c0662f; padding:1rem 1.2rem;"}
-**PLACEHOLDER — I need your input here.** You asked me not to assume, and I
-don't have reliable details on this project. Send me:
+Lack of knowledge of species interactions (also known as the ["Eltonian shortfall"](https://www.annualreviews.org/content/journals/10.1146/annurev-ecolsys-112414-054400)) inhibits ecologists' ability to predict the distribution of species. The Avian MetaNetwork helps to fill this gap through the systematic collection and integration of bird-bird interaction data for bird species across the Western Hemisphere.
 
-1. Two to three sentences on the core question.
-2. Funder and award, if any.
-3. Key collaborators and your role.
-4. Current status (in progress / in review / preprint) and any links.
-5. One figure or photo I can use.
-:::
+**Role:** Data scientist responsible for co-developing and maintaining reproducible workflow for data cleaning, taxonomic harmonization, subsetting, and archiving. 
+
+[Data paper pre-print (Zarnetske et al.)](https://www.biorxiv.org/content/10.64898/2026.05.11.723238v1.full.pdf)
+[Archived dataset (to be made public upon release of data paper)](https://portal.edirepository.org/nis/mapbrowse?packageid=edi.2278.2)
+[GitHub repository](https://github.com/AvianMetaNetwork/AvianMetaNetwork)
+
 :::
 ::: {.feature-img}
 ![](images/project-metanetwork.jpg)
@@ -133,18 +131,8 @@ Climate intervention · 2025–present
 :::
 ### Solar radiation modification
 
-::: {style="background:#fdf6ee; border-left:3px solid #c0662f; padding:1rem 1.2rem;"}
-**PLACEHOLDER — I need your input here.** Your CV lists a 2025 Environmental
-Defense Fund award ($270,000) for solar radiation modification work, but I don't
-know the substance. Send me:
+Stratospheric aerosol injection (SAI) is a controversial form of solar geo-engineering that has been proposed as an intermediate step to lower temperatures while global communities work to reduce carbon emissions. However, very little is known about the possibly substantial ecological consequences of SAI. Aerosol injection could affect patterns of light (e.g., diffuse vs. direct) and precipitation, among other variables that are important for ecosystem functioning. This project seeks to better undersatnd the potential impacts and cascading consequences of SAI on ecosystems through experiments, identification of ecological analog communities, and forecasts of extreme events under SAI. 
 
-1. The research question in two to three sentences.
-2. Your role (PI? Co-I? Lead analyst?) and whether the award is to you.
-3. Whether the ecological-impacts angle is the focus, and at what scale.
-4. Whether you want this featured at all — SRM is contested, and some NGO
-   audiences may read it differently than a consulting firm would. Happy to
-   move it lower or leave it off.
-:::
 :::
 ::: {.feature-img}
 ![](images/project-srm.jpg)
