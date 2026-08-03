@@ -1,0 +1,268 @@
+---
+title: "Publications"
+pagetitle: "Publications | Kelly Kapsar"
+page-layout: full
+---
+
+::: {.hero .hero-sm style="background-image: url('images/hero-publications.jpg');"}
+::: {.hero-inner}
+# Publications
+
+::: {.lede}
+17 peer-reviewed articles, five book chapters and technical reports, and four
+published datasets. Full list below; [Google Scholar](https://scholar.google.com/citations?user=atrvd1AAAAAJ&hl=en)
+has citation counts.
+:::
+:::
+:::
+
+::: {.band .band-sand}
+::: {.band-inner}
+
+::: {.section-label}
+Start here
+:::
+
+## Five papers that show what I do
+
+::: {.project-grid}
+
+::: {.project-card style="border:none;"}
+::: {.pc-body}
+::: {.pc-meta}
+Applied risk assessment
+:::
+### Vessel risk to seabirds in the North Pacific and Arctic
+Where do ships and seabirds overlap, and when? A multi-scale seasonal risk
+analysis built to be used directly in spatial planning and spill response.
+
+*Kapsar, Sullender & Kuletz (2025), Conservation Biology*
+
+::: {.pc-links}
+[DOI](https://doi.org/10.1111/cobi.70115)
+:::
+:::
+:::
+
+::: {.project-card style="border:none;"}
+::: {.pc-body}
+::: {.pc-meta}
+Data infrastructure
+:::
+### Multi-scale environmental geodiversity for NEON
+Continental-scale environmental heterogeneity layers plus a reusable workflow —
+an example of the kind of durable data product I build.
+
+*Kapsar et al. (2026), Scientific Data*
+
+::: {.pc-links}
+[DOI](https://doi.org/10.1038/s41597-026-07613-5)
+:::
+:::
+:::
+
+::: {.project-card style="border:none;"}
+::: {.pc-body}
+::: {.pc-meta}
+Does policy work?
+:::
+### Effectiveness of IMO "Areas to be Avoided" in the Bering Strait
+An empirical test of whether a management designation actually changed vessel
+behavior on the water.
+
+*Block, Remer, Kapsar & Schmidt (2025), Marine Policy*
+
+::: {.pc-links}
+[DOI](https://doi.org/10.1016/j.marpol.2025.106849)
+:::
+:::
+:::
+
+::: {.project-card style="border:none;"}
+::: {.pc-body}
+::: {.pc-meta}
+Macroecology at scale
+:::
+### Environmental variability shapes life history of the world's birds
+A global analysis linking 70+ years of climate variability to avian generation
+length across species ranges.
+
+*Youngflesh, Kapsar et al. (2024), Ecology Letters*
+
+::: {.pc-links}
+[DOI](https://doi.org/10.1111/ele.70077)
+:::
+:::
+:::
+
+::: {.project-card style="border:none;"}
+::: {.pc-body}
+::: {.pc-meta}
+Climate & the Arctic
+:::
+### Vessel traffic in the ice-covered waters of the Pacific Arctic
+Combining sea ice remote sensing with AIS to quantify how ice loss is opening
+the Arctic to shipping.
+
+*Kapsar, Gunn, Brigham & Liu (2023), Climatic Change*
+
+::: {.pc-links}
+[DOI](https://doi.org/10.1007/s10584-023-03568-3)
+:::
+:::
+:::
+
+:::
+
+:::
+:::
+
+<!-- ====================================================================== -->
+
+::: {.band}
+::: {.band-inner}
+
+## Peer-reviewed journal articles
+
+::: {.lead-text}
+\* denotes first authorship. [Download BibTeX](references.bib)
+:::
+
+::: {.pub-list}
+
+::: {.csl-entry}
+Bills, P., Ramesh, A., Petri, L., Martínez-Blancas, A., **Kapsar, K.**, Tiwari, A., and Zarnetske, P. *CollaboratoR: A scalable workflow for collaborative data entry and management.* **[In review]**
+:::
+
+::: {.csl-entry}
+\***Kapsar, K.**, Kounta, L., Baiser, B., Bills, P., Record, S., Strecker, A., and Zarnetske, P. (2026). Multi-scale environmental geodiversity: data for the National Ecological Observatory Network (NEON) with an adaptable workflow. *Scientific Data.* [10.1038/s41597-026-07613-5](https://doi.org/10.1038/s41597-026-07613-5)
+:::
+
+::: {.csl-entry}
+Waloven, S., Portales, N., **Kapsar, K.**, and Liu, J. (2025). A synthesized dataset of Pacific Arctic marine mammal occurrences (1860–2024). *Data in Brief*, e112036. [10.1016/j.dib.2025.112036](https://doi.org/10.1016/j.dib.2025.112036)
+:::
+
+::: {.csl-entry}
+\***Kapsar, K.**, Sullender, B., and Kuletz, K. (2025). A multi-scale seasonal analysis of vessel risk to seabirds in the North Pacific and Arctic. *Conservation Biology*, e70115. [10.1111/cobi.70115](https://doi.org/10.1111/cobi.70115)
+:::
+
+::: {.csl-entry}
+Block, I., Remer, M., **Kapsar, K.**, and Schmidt, J. (2025). Analysis on the effectiveness of the International Maritime Organization's 'Areas to be Avoided' policy on vessel traffic in the Bering Strait (2015–2022). *Marine Policy*, 181, 106849. [10.1016/j.marpol.2025.106849](https://doi.org/10.1016/j.marpol.2025.106849)
+:::
+
+::: {.csl-entry}
+Youngflesh, C., **Kapsar, K.**, Uscanga, A., Williams, P.J., Doser, J.W., Kounta, L., and Zarnetske, P.L. (2024). Environmental variability shapes life history of the world's birds. *Ecology Letters*, 28(2), e70077. [10.1111/ele.70077](https://doi.org/10.1111/ele.70077)
+:::
+
+::: {.csl-entry}
+\***Kapsar, K.**, Gunn, G., Brigham, L., and Liu, J. (2023). Measuring recent increases in vessel traffic in the ice-covered waters of the Pacific Arctic. *Climatic Change*, 176(7), 94. [10.1007/s10584-023-03568-3](https://doi.org/10.1007/s10584-023-03568-3)
+:::
+
+::: {.csl-entry}
+Waloven, S., **Kapsar, K.**, Schwoerer, T., Berman, M., Schmidt, J., Viña, A., and Liu, J. (2023). Global gateways as telecoupled human and natural systems: The emerging case of the Bering Strait. *Ambio.* [10.1007/s13280-023-01835-2](https://doi.org/10.1007/s13280-023-01835-2)
+:::
+
+::: {.csl-entry}
+\***Kapsar, K.**, Sullender, B., Liu, J., and Poe, A. (2022). North Pacific and Arctic marine traffic dataset (2015–2020). *Data in Brief*, 44, 108531. [10.1016/j.dib.2022.108531](https://doi.org/10.1016/j.dib.2022.108531)
+:::
+
+::: {.csl-entry}
+\***Kapsar, K.**, Frans, V., Brigham, L., and Liu, J. (2022). The metacoupled Arctic: Human-nature interactions across local to global scales as drivers of sustainability. *Ambio*, 51(10), 2061–2078. [10.1007/s13280-022-01729-9](https://doi.org/10.1007/s13280-022-01729-9)
+:::
+
+::: {.csl-entry}
+Sullender, B., **Kapsar, K.**, Poe, A., and Robards, M. (2021). Spatial management measures alter vessel behavior in the Aleutian Archipelago. *Frontiers in Marine Science*, 7, 579905. [10.3389/fmars.2020.579905](https://doi.org/10.3389/fmars.2020.579905)
+:::
+
+::: {.csl-entry}
+Chung, M.G., **Kapsar, K.**, Frank, K., and Liu, J. (2020). The spatial and temporal dynamics of global meat trade networks. *Scientific Reports*, 10(1), 16657. [10.1038/s41598-020-73591-2](https://doi.org/10.1038/s41598-020-73591-2)
+:::
+
+::: {.csl-entry}
+\***Kapsar, K.**, Hovis, C., Bicudo da Silva, R., Buchholtz, E., Carlson, A., Dou, Y., … Liu, J. (2019). Telecoupling research: The first five years. *Sustainability*, 11(4), 1033. [10.3390/su11041033](https://doi.org/10.3390/su11041033)
+:::
+
+::: {.csl-entry}
+Herzberger, A., Chung, M.G., **Kapsar, K.**, Frank, K.A., and Liu, J. (2019). Telecoupled food trade affects pericoupled trade and intracoupled production. *Sustainability*, 11(10), 2908. [10.3390/su11102908](https://doi.org/10.3390/su11102908)
+:::
+
+::: {.csl-entry}
+Xu, Z., Li, Y., Herzberger, A., Chen, X., Gong, M., **Kapsar, K.**, … and Liu, J. (2019). Interactive national virtual water-energy nexus networks. *Science of The Total Environment*, 673, 128–135. [10.1016/j.scitotenv.2019.03.298](https://doi.org/10.1016/j.scitotenv.2019.03.298)
+:::
+
+::: {.csl-entry}
+Du, Y., Wan, Q., Liu, H., **Kapsar, K.**, and Peng, J. (2019). How does urbanization influence PM2.5 concentrations? Perspective of spillover effect of multi-dimensional urbanization impact. *Journal of Cleaner Production*, 220, 974–983. [10.1016/j.jclepro.2019.02.222](https://doi.org/10.1016/j.jclepro.2019.02.222)
+:::
+
+:::
+
+:::
+:::
+
+<!-- ====================================================================== -->
+
+::: {.band .band-sand}
+::: {.band-inner}
+
+## Book chapters & technical reports
+
+::: {.pub-list}
+
+::: {.csl-entry}
+Beck, J.M., Hoffmann, C.F., **Kapsar, K.**, and Montgomery, R.A. (2026). The power of value-laden framing: examples from wildlife conservation research. In *Routledge Handbook of Values and Science.* [10.4324/9781003469100-49](https://doi.org/10.4324/9781003469100-49)
+:::
+
+::: {.csl-entry}
+Sullender, B., **Kapsar, K.**, and Kuletz, K. (2022). Appendix 6: Seabird-vessel traffic risk analysis for Alaska's marine regions. In *Marine Bird Distribution and Abundance in Offshore Waters.* BOEM 2022-067. [Report](https://www.boem.gov/regions/alaska-ocs-region/scientific-and-technical-publications-2022)
+:::
+
+::: {.csl-entry}
+Berkman, P., Fiske, G., Lorenzini, D., Young, O., Pletnikoff, K., Grebmeier, J., Fernandez, L., Devinie, L., Causey, D., **Kapsar, K.**, and Jørgensen, L. (2022). Satellite record of pan-Arctic maritime ship traffic. In *Arctic Report Card 2022.* [10.25923/mhrv-gr76](https://doi.org/10.25923/mhrv-gr76)
+:::
+
+::: {.csl-entry}
+Liu, J., Herzberger, A., **Kapsar, K.**, Carlson, A., and Connor, T. (2019). What is telecoupling? In *Telecoupling: Exploring Land Use Change in a Globalized World* (pp. 19–48). Palgrave Macmillan. [10.1007/978-3-030-11105-2](https://doi.org/10.1007/978-3-030-11105-2)
+:::
+
+::: {.csl-entry}
+Cerezo, A., and **Kapsar, K.E.** (2018). Zoo conservation disembarks: Stepping off the ark and into global sustainable development. In *The Ark and Beyond: The Evolution of Zoo & Aquarium Conservation* (pp. 344–359). University of Chicago Press.
+:::
+
+:::
+
+:::
+:::
+
+<!-- ====================================================================== -->
+
+::: {.band}
+::: {.band-inner}
+
+## Published datasets
+
+::: {.lead-text}
+All openly licensed, versioned, and citable.
+:::
+
+::: {.pub-list}
+
+::: {.csl-entry}
+**Kapsar, K.**, Kounta, L., Bills, P., Record, S., Strecker, A., Baiser, B., and Zarnetske, P. (2025). *Multi-scale environmental geodiversity: data for NEON with an adaptable workflow, ver. 2.* Environmental Data Initiative.
+:::
+
+::: {.csl-entry}
+Waloven, S., Portales, N., **Kapsar, K.**, and Liu, J. (2025). *A synthesis of Pacific Arctic marine mammal occurrences (1860–2024).* Arctic Data Center. [10.18739/A2WH2DH0V](https://doi.org/10.18739/A2WH2DH0V)
+:::
+
+::: {.csl-entry}
+Youngflesh, C., **Kapsar, K.**, Uscanga, A., Williams, P.J., Doser, J.W., Kounta, L., and Zarnetske, P.L. (2024). *Inter- and intra-annual temperature and precipitation variability (1950–2022) across the ranges of non-migratory birds.* Environmental Data Initiative. [10.6073/pasta/59fba1b…](https://doi.org/10.6073/pasta/59fba1b7dfe96856b17143f8e50f5722)
+:::
+
+::: {.csl-entry}
+**Kapsar, K.**, Sullender, B., and Poe, A. (2022). *North Pacific and Arctic marine vessel traffic dataset (2015–2020); 25 km resolution.* Arctic Data Center. [10.18739/A2J678Z16](https://doi.org/10.18739/A2J678Z16)
+:::
+
+:::
+
+:::
+:::

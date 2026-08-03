@@ -1,0 +1,279 @@
+---
+title: "CV"
+pagetitle: "CV | Kelly Kapsar"
+page-layout: full
+---
+
+::: {.hero .hero-sm style="background-image: url('images/hero-cv.jpg');"}
+::: {.hero-inner}
+# Curriculum Vitae
+
+::: {.lede}
+Ph.D. in Fisheries & Wildlife · 17 peer-reviewed publications · four public
+datasets · a decade of community-engaged conservation practice.
+:::
+[Download PDF](files/KapsarCV.pdf){.btn-hero .solid}
+:::
+:::
+
+::: {.band}
+::: {.band-inner}
+
+::: {.section-label}
+Education
+:::
+
+::: {.talk-item}
+::: {}
+::: {.talk-year}
+2022
+:::
+:::
+::: {}
+::: {.talk-title}
+**Ph.D., Fisheries & Wildlife** — Michigan State University
+:::
+::: {.talk-venue}
+Center for Systems Integration & Sustainability · University Distinguished Fellow · Advisor: Dr. Jianguo (Jack) Liu<br>
+*Dissertation: The metacoupled Arctic and North Pacific — analyzing the spatiotemporal patterns and impacts of marine vessel traffic in coupled human and natural systems*
+:::
+:::
+:::
+
+::: {.talk-item}
+::: {}
+::: {.talk-year}
+2014
+:::
+:::
+::: {}
+::: {.talk-title}
+**B.A., Biology** (Magna Cum Laude, Distinction in Major) — Carleton College
+:::
+::: {.talk-venue}
+Certificate of Advanced Studies in Spanish<br>
+*Thesis: Who's afraid of the big bad wolf? Trait-mediated interactions among sympatric carnivores and their effect on behaviorally-mediated trophic cascades*
+:::
+:::
+:::
+
+:::
+:::
+
+::: {.band .band-sand}
+::: {.band-inner}
+
+::: {.section-label}
+Experience
+:::
+
+::: {.talk-item}
+::: {}
+::: {.talk-year}
+2023–present
+:::
+:::
+::: {}
+::: {.talk-title}
+**Data Scientist** — Institute for Biodiversity, Ecology, Evolution, and Macrosystems (IBEEM), Michigan State University
+:::
+::: {.talk-venue}
+Continental-scale environmental data products; reproducible analysis pipelines; collaborative data infrastructure. Supervisor: Dr. Phoebe Zarnetske
+:::
+:::
+:::
+
+::: {.talk-item}
+::: {}
+::: {.talk-year}
+2023–present
+:::
+:::
+::: {}
+::: {.talk-title}
+**Postdoctoral Research Associate** — Spatial & Community Ecology Lab, Michigan State University
+:::
+::: {.talk-venue}
+Macroecology, geodiversity, and avian life history at broad spatial scales. Supervisor: Dr. Phoebe Zarnetske
+:::
+:::
+:::
+
+::: {.talk-item}
+::: {}
+::: {.talk-year}
+2022–2025
+:::
+:::
+::: {}
+::: {.talk-title}
+**Postdoctoral Research Associate** — Center for Systems Integration & Sustainability, Michigan State University
+:::
+::: {.talk-venue}
+Arctic vessel traffic analysis; vessel–marine mammal interaction modeling; community engagement and outreach. Supervisor: Dr. Jianguo (Jack) Liu
+:::
+:::
+:::
+
+::: {.talk-item}
+::: {}
+::: {.talk-year}
+2015–2025
+:::
+:::
+::: {}
+::: {.talk-title}
+**Research Associate, Community Engagement in Conservation** — Saint Louis Zoo Arctic Socio-Environmental WildCare Program
+:::
+::: {.talk-venue}
+Community-engaged conservation research and outreach with Alaskan partners
+:::
+:::
+:::
+
+::: {.talk-item}
+::: {}
+::: {.talk-year}
+2023
+:::
+:::
+::: {}
+::: {.talk-title}
+**Data Scientist** — ACTNOW Amazonas Action Alliance, XPRIZE Rainforest
+:::
+::: {.talk-venue}
+Biodiversity data analysis for an international competition team
+:::
+:::
+:::
+
+::: {.talk-item}
+::: {}
+::: {.talk-year}
+2019
+:::
+:::
+::: {}
+::: {.talk-title}
+**Research Assistant** — USCGC *Healy* Research Cruise 1901
+:::
+::: {.talk-venue}
+Bering and Chukchi Seas, Alaska
+:::
+:::
+:::
+
+:::
+:::
+
+::: {.band}
+::: {.band-inner}
+
+::: {.section-label}
+Selected funding
+:::
+
+## Grants, fellowships & awards
+
+::: {.lead-text}
+Principal contributor to a $1.5M NSF Arctic System Science proposal; recipient of
+competitive fellowships and awards totalling over $200,000.
+:::
+
+::: {.pub-list}
+
+::: {.csl-entry}
+**2025** — Environmental Defense Fund, Solar Radiation Modification · $270,000
+:::
+
+::: {.csl-entry}
+**2022** — MSU Institute for Biodiversity, Ecology, Evolution, and Macrosystems (IBEEM) Postdoctoral Fellowship · $75,000
+:::
+
+::: {.csl-entry}
+**2021** — NSF Arctic System Science, *Collaborative Research: Complex Effects of Telecoupled Activities in the Changing Environment of the Arctic* (Award #2033507) · $1,541,800 · *principal contributor to Project Description and Data Management Plan*
+:::
+
+::: {.csl-entry}
+**2016** — University Distinguished Fellowship, Michigan State University · $80,000
+:::
+
+::: {.csl-entry}
+**2018** — William W. and Evelyn M. Taylor Endowed Fellowship for International Engagement in Coupled Human and Natural Systems · $28,000
+:::
+
+::: {.csl-entry}
+**2021** — CANR Dissertation Completion Fellowship ($10,000); CANR Summer Fellowship ($7,000); CANR Alumni Association Scholarship ($3,000); Ambrose Patullo Graduate Fellowship in Literary Works ($2,500)
+:::
+
+::: {.csl-entry}
+**2017–2020** — Vera M. Wallach Graduate Fellowship ($2,500); Gilbert W. Mouser Scholarship in Conservation & Environmental Education ($2,500); AGU Virtual Student Travel Grant ($1,000); assorted travel funding
+:::
+
+:::
+
+:::
+:::
+
+::: {.band .band-sand}
+::: {.band-inner}
+
+::: {.section-label}
+Skills
+:::
+
+## Technical & professional
+
+::: {.project-grid}
+
+::: {.project-card style="border:none; background:transparent;"}
+::: {.pc-body style="padding:0;"}
+### Analysis & programming
+[R]{.tag} [Rspatial (terra, sf)]{.tag} [Python]{.tag} [Stata]{.tag}
+[Spatial statistics]{.tag} [Network analysis]{.tag} [High-performance computing]{.tag}
+:::
+:::
+
+::: {.project-card style="border:none; background:transparent;"}
+::: {.pc-body style="padding:0;"}
+### Geospatial & remote sensing
+[ArcGIS]{.tag} [ERDAS Imagine]{.tag} [Satellite AIS]{.tag}
+[Sea ice remote sensing]{.tag} [Multi-scale raster analysis]{.tag}
+:::
+:::
+
+::: {.project-card style="border:none; background:transparent;"}
+::: {.pc-body style="padding:0;"}
+### Reproducibility & collaboration
+[Git / GitHub]{.tag} [Quarto]{.tag} [Open data publishing]{.tag}
+[Data management plans]{.tag} [Version-controlled workflows]{.tag}
+:::
+:::
+
+::: {.project-card style="border:none; background:transparent;"}
+::: {.pc-body style="padding:0;"}
+### Communication & engagement
+[Technical reporting]{.tag} [Agency briefings]{.tag} [StoryMaps]{.tag}
+[Public writing]{.tag} [Spanish (proficient)]{.tag} [Media training]{.tag}
+[Videography & graphics]{.tag}
+:::
+:::
+
+:::
+
+::: {style="margin-top:2rem;"}
+**Certifications** — NSF Arctic Data Center: Scalable and Computationally Reproducible
+Approaches to Arctic Research (2023); Reproducible Practices for Arctic Research
+Using R (2019); PADI Open Water SCUBA; Ready for Media Training (2016)
+
+**Memberships** — Ecological Society of America · International Association for
+Landscape Ecology (N. America) · Women in Nature Network
+
+**Service** — IALE-NA Awards Committee (2025–present) · MSU Fisheries & Wildlife
+DEI Committee, Postdoc Representative (2022–2024) · Women in Nature Network MSU
+Chapter, founding member · Association of Polar Early Career Scientists Council
+(2019–2020) · Reviewer for *Ambio*, *Ecology & Society*, *Journal of Cleaner Production*
+:::
+
+:::
+:::

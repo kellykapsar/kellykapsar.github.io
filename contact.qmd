@@ -1,0 +1,58 @@
+---
+title: "Contact"
+pagetitle: "Contact | Kelly Kapsar"
+page-layout: full
+---
+
+::: {.hero .hero-sm style="background-image: url('images/hero-contact.jpg');"}
+::: {.hero-inner}
+# Get in touch
+
+::: {.lede}
+I'm currently looking for research roles with environmental consulting firms and
+conservation organizations. I'm also happy to talk about collaborations, data
+requests, or reviewing.
+:::
+:::
+:::
+
+::: {.band}
+::: {.band-inner}
+
+::: {.two-col}
+
+::: {}
+![](images/headshot.jpg){.headshot}
+:::
+
+::: {}
+## Kelly Kapsar, Ph.D.
+
+::: {.lead-text}
+Conservation Data Scientist
+:::
+
+**Email** — [kelly.kapsar@gmail.com](mailto:kelly.kapsar@gmail.com)
+
+**Available for** — remote and hybrid roles; open to relocation
+
+::: {style="margin-top:1.5rem;"}
+[Google Scholar](https://scholar.google.com/citations?user=atrvd1AAAAAJ&hl=en){.btn-hero style="border-color:#1f4d47; color:#1f4d47 !important;"}
+[GitHub](https://github.com/kellykapsar){.btn-hero style="border-color:#1f4d47; color:#1f4d47 !important;"}
+[LinkedIn](https://www.linkedin.com/in/kelly-kapsar-a1a2598b/){.btn-hero style="border-color:#1f4d47; color:#1f4d47 !important;"}
+:::
+
+::: {style="margin-top:2rem;"}
+### Data & code requests
+All of my published datasets are openly available through the
+[Arctic Data Center](https://arcticdata.io) and the
+[Environmental Data Initiative](https://edirepository.org), and analysis code is
+on [GitHub](https://github.com/kellykapsar). If you need something that isn't
+posted, email me.
+:::
+:::
+
+:::
+
+:::
+:::

@@ -1,0 +1,78 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  # Quarto only auto-copies files it finds in markdown links/images. The hero
+  # photos are referenced inside inline CSS (background-image: url(...)), which
+  # Quarto cannot see, so they must be declared here or they 404.
+  resources:
+    # Listed by extension rather than as "images/" so the _originals backup
+    # folder (26 MB of uncompressed camera files) is never copied to the site.
+    - images/*.jpg
+    - images/*.png
+    - images/*.mp4
+    - files/
+    - references.bib
+    - .nojekyll
+
+website:
+  title: "Kelly Kapsar"
+  description: "Conservation data scientist working at the intersection of spatial analysis, wildlife conservation, and human activity."
+  site-url: "https://kellykapsar.github.io"
+  favicon: images/favicon.png
+  open-graph: true
+  twitter-card: true
+
+  navbar:
+    background: transparent
+    logo: ""
+    title: "Kelly Kapsar"
+    collapse-below: lg
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Talks & Outreach"
+        href: talks.qmd
+      - text: "CV"
+        href: cv.qmd
+      - text: "Contact"
+        href: contact.qmd
+
+  page-footer:
+    background: light
+    left: |
+      &copy; 2026 Kelly Kapsar &nbsp;&middot;&nbsp; Built with [Quarto](https://quarto.org)
+    right:
+      - text: "Google Scholar"
+        href: "https://scholar.google.com/citations?user=atrvd1AAAAAJ&hl=en"
+      - icon: github
+        href: "https://github.com/kellykapsar"
+        aria-label: GitHub
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/kelly-kapsar-a1a2598b/"
+        aria-label: LinkedIn
+      - icon: envelope
+        href: "mailto:kelly.kapsar@gmail.com"
+        aria-label: Email
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    grid:
+      body-width: 1000px
+
+execute:
+  freeze: auto
+
+editor: source

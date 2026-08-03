@@ -1,0 +1,21 @@
+/_site/
+/.quarto/
+.Rproj.user
+.Rhistory
+.RData
+.DS_Store
+*.html.md
+
+# LibreOffice temp artifacts from CV conversion — safe to delete
+.~lock.*
+*.tmp
+
+**/*.quarto_ipynb
+
+# Uncompressed camera originals — kept locally, never committed
+images/_originals/
+# Superseded source files (converted to .jpg / .mp4). Safe to delete.
+images/*.JPEG
+images/hero-research.gif
+images/outreach-storymap.gif
+images/P2170911.JPG
