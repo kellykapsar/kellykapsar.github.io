@@ -2,9 +2,6 @@
 title: "Home"
 pagetitle: "Kelly Kapsar | Conservation Data Scientist"
 page-layout: full
-format:
-  html:
-    css: styles.scss
 ---
 
 ::: {.hero style="background-image: url('images/hero-home.jpg');"}

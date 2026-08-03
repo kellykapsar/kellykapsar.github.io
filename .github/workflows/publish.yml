@@ -8,18 +8,23 @@ on:
 permissions:
   contents: write
   pages: write
+  id-token: write
 
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
     steps:
+      # v5 runs on Node 24. v4 still works but emits a deprecation warning
+      # on every run.
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
+      # No version pin: always installs the current Quarto release. Pinning
+      # to a version that has been removed causes the setup step to fail.
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: 1.6.40
 
       # If you later add R code chunks to any .qmd, uncomment these two blocks.
       # - name: Set up R
