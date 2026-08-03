@@ -124,9 +124,10 @@ adaptable workflow so the same layers can be generated anywhere.
 Macroecology
 :::
 ### Avian MetaNetwork
-PLACEHOLDER — see the open-items list. Tell me in 2–3 sentences what this
-project asks, who is funding it, and who your collaborators are, and I will
-write this card.
+Ecologists can't predict where species will occur without knowing how they
+interact — the "Eltonian shortfall." The Avian MetaNetwork closes that gap by
+systematically collecting and integrating bird–bird interaction data across the
+Western Hemisphere.
 
 ::: {.pc-links}
 [Read more](research.qmd#metanetwork)
@@ -160,8 +161,10 @@ coastal communities that depend on it.
 Climate intervention
 :::
 ### Ecological risk of solar radiation modification
-PLACEHOLDER — a $270k Environmental Defense Fund award (2025). Tell me your role
-and the core research question and I will write this card.
+Stratospheric aerosol injection has been proposed to buy time on warming, but
+its ecological consequences are largely unknown. This project uses experiments,
+ecological analogs, and extreme-event forecasting to find out what it would do
+to ecosystems.
 
 ::: {.pc-links}
 [Read more](research.qmd#srm)
